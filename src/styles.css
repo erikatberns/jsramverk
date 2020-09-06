@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Allura";
+  src: url("Allura-Regular.ttf");
+}
+@font-face {
+  font-family: "adequate";
+  src: url("font1.ttf");
+}
+
+* {
+  margin: 0;
+}
+
+#wrap {
+  width: auto;
+  margin: 0 auto;
+  border: 0px solid;
+  height: 120px;
+  word-break: break-all;
+  font-size: 0;
+  margin-bottom: 60px;
+}
+
+#wrap > div {
+  height: 100%;
+  display: inline-block;
+  overflow: auto;
+  background-color: #cbc5b9;
+  }
+
+
+#one, #three {
+  width: 37%;
+  height: 20px;
+  font-size: 30px;
+  padding-top: 25px;
+  height: 10px;
+  font-family: "Allura";
+}
+
+#one {
+  text-align: right;
+}
+
+#punkt {
+  background-color: #cbc5b9;
+  font-size: 10px;
+  opacity: 100%;
+}
+
+#two {
+  width: 26%;
+  height: 20px;
+  padding-top: 25px;
+  font-size: 45px;
+  text-align: center;
+  font-family: "adequate";
+}
+
+#three {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}

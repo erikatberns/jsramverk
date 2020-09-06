@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Blancha";
+  src: url("Blancha.ttf");
+}
+
+#mesida {
+  margin: auto;
+  padding-left: 100px;
+  color: black;
+  width: 60%;
+  height: 420px;
+  /* word-break: break-all; */
+}
+
+
+#mesida > div {
+  height: 100%;
+  display: inline-block;
+  overflow: auto;
+  background-color: #edece7;
+  }
+
+
+#box1 {
+  width: 44%;
+  margin: 11px;
+  padding: 22px;
+}
+
+h1 {
+  font-family: "Blancha";
+}
+
+#box2 {
+  background-image: url("växt.jpg");
+  width: 44%;
+  margin: 11px;
+  padding: 22px;
+}
+
+/*
+#maindiv {
+  width: 60%;
+  margin: 0 auto;
+  border: 0px solid;
+  height: 120px;
+  word-break: break-all;
+  font-size: 0;
+  color: black;
+}
+
+#maindiv > div {
+  min-height: 100%;
+  display: inline-block;
+  overflow: auto;
+  color: black;
+
+  background-color: #fff1ed;
+  }
+
+#box1, #box2 {
+  width: 45%;
+  height: 400px;
+  background-color: #ebeae5;
+  margin: 10px;
+  color: black;
+
+}
+
+#box1 {
+  background-image: url("växt.jpg");
+} */
